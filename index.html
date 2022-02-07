@@ -106,6 +106,7 @@
 <br> <input type="button" value="Voltar" id="voltar" onclick="history.go(0)"/>
  
  </div><br>
+ <div id="ajuda" onclick="ajuda()">❓ Lista  de cadastrados </div>
 <div id="res"></div><br><br><br><br><br><br><br><br><br>
  <div class="red"></div>
 <script>
@@ -152,7 +153,11 @@ else{
 
   } 
   
-  
+function ajuda(){
+    
+    var aajuda=document.getElementById('ajuda')
+    window.alert(`Cadastrados para teste|pesquisar por:| pão caseiro| pão francês| pão amanhecido| pão hot dog| bolo kit kat| bolo leite ninho|Não use letras maiúsculas`)
+  }
   
   
   
