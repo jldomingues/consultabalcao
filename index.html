@@ -100,7 +100,7 @@
     
  <h4>Nome do Produto:</h4>
     
- <input type="produto" name="produto" id="produto" placeholder="Digite o nome do produto"/>
+ <input type="produto" name="produto" id="produto" placeholder="Exemplo Paofrances/>
  <div id="button"><br><br>
   
  <input type="button" value="Pesquisar" id="pesquisa" onclick="pesquisa()"/><br>
@@ -116,36 +116,36 @@
 var ppesquisa=document.getElementById('produto').value
 var pres=document.getElementById('res')
 
-if (ppesquisa=="pão francês"){
+if (ppesquisa=="paofrances"){
   pres.innerHTML=("Pão Francês <br> Código:237")
 }
 else
-if (ppesquisa == "pão amanhecido") {
-  pres.innerHTML = ("Pão amanhecido <br> Código:2423")
+if (ppesquisa == "Paoamanhecido") {
+  pres.innerHTML = ("Pão Amanhecido <br> Código:2423")
 }
 else
-if (ppesquisa == "pão caseiro") {
+if (ppesquisa == "Paocaseiro") {
   pres.innerHTML = ("Pão Caseiro<br> Código:671")
 }
 else
-if (ppesquisa == "pão hot dog") {
+if (ppesquisa == "Paohotdog") {
   pres.innerHTML = ("Pão Hot Dog<br> Código:380")
 }
 
 else
-if (ppesquisa == "bolo kit kat") {
+if (ppesquisa == "Bolokitkat") {
   pres.innerHTML = ("Bolo Kit Kat <br> Código:1474")
 }
 else
-if (ppesquisa == "bolo leite ninho") {
+if (ppesquisa == "Bololeiteninho") {
   pres.innerHTML = ("Bolo Leite Ninho <br> Código:2636")
 }
 else 
 if (ppesquisa=="ajuda"){
   pres.innerHTML=(`Códigos cadastrados <br>
- pão caseiro,pão hot dog,pão francês,pão amanhecido,bolo kit kat,bolo leite ninho`)
+ paocaseiro,paohotdog,paofrancrs,paoamanhecido,bolokitkat,bololeiteninho`)
 }
-
+ 
 else{
   
   pres.innerHTML=(
@@ -158,7 +158,7 @@ else{
 function ajuda(){
     
     var aajuda=document.getElementById('ajuda')
-    window.alert(`Cadastrados para teste|pesquisar por:| pão caseiro| pão francês| pão amanhecido| pão hot dog| bolo kit kat| bolo leite ninho|Não use letras maiúsculas`)
+    window.alert(`|ATUALIZADO|Cadastrados para teste|pesquisar por:| Paocaseiro| Paofrances| Paoamanhecido| Paohotdog| Bolokitkat| Bololeiteninho|`)
   }
   
   
@@ -172,5 +172,6 @@ function ajuda(){
  
  
 </body>
+<footer>Atualizado</footer>
 
 </html>
